@@ -57,7 +57,10 @@ align-items: center;
 .logo-link{
   margin-right: 93px;
 }
-
+.header{
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .logo{
     font-family: "Raleway",sans-serif;
@@ -100,7 +103,7 @@ align-items: center;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  margin-left: auto;
+  margin-left: 330px;
   margin-right: 50px;
    color: #757575;
 }
@@ -120,47 +123,49 @@ align-items: center;
 }
 
 /*===============HERO=========*/
-.hero{
-    /* Bg */
+.hero .conteiner{
+width: 1600px;
+height: 600px;
 left: 0px;
 top: 80px;
+padding-left: 452px;
+padding-bottom: 280px;
+padding-top: 200px;
 background: var(--bg-color);
 }
-.hero-title{
+
+.hero-text{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
     color: #FFFFFF;
-    background-color: #2F303A;
+
 }
 /*------------button---------*/
 
 .button{
-    background-color: var(--hover-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
+min-width: 200px;
+height: 50px;
+top: 430px;
+border: none;
+background: #2196F3;
+border-radius: 4px;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+padding: 8px 30px;
+margin-top: 40px;
 }
-.button span {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 187%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #ffffff;
-  }
+
   .button:hover {
     background-color: #ffffff;
-  }
-  .button span:hover {
     color: var(--hover-color);
   }
 
