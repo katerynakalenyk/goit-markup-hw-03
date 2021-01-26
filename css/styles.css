@@ -350,11 +350,49 @@ margin-right: 30px;
 /*===========PORTFOLIO============*/
 /*---buttons такаие же как и встудии--*/
 
-.navigation-btn{
+.navigation-portfolio-btn{
   display: flex;
+  justify-content: center;
   padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
+.portfolio-button{
+  font-family: inherit;
+  border: none;
+  background: #F5F4FA;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+  padding: 6px 20px;
+  display: inline-block;
+  }
+  .all{
+    min-width: 73px;
+  }
+  .sites{
+    min-width: 128px;
+  }
+  .apps{
+    min-width: 145px;
+  }
+  .design{
+    min-width: 103px;
+  }
+  .marketing{
+    min-width: 130px;
+  }
+  
+    .portfolio-button:hover,
+    .portfolio-button:focus
+     {
+       cursor: pointer;
+      background-color: var(--hover-color);
+      color: #FFFFFF;
+    }
 .btn-link:not(:last-child){
   margin-right: 8px;
 }
