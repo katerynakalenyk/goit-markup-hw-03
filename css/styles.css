@@ -127,7 +127,7 @@ padding: 32px 0;
 
 /*===============HERO=========*/
 .hero {
-  max-width: 1600px;
+max-width: 1600px;
 height: 600px;
 padding-bottom: 200px;
 padding-top: 200px;
@@ -350,12 +350,31 @@ margin-right: 30px;
 /*===========PORTFOLIO============*/
 /*---buttons такаие же как и встудии--*/
 
-
-.navigation-btn {
+.navigation-btn{
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.btn-link:not(:last-child){
+  margin-right: 8px;
+}
+.link-title-img{
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-
-
+  margin: -15px;
+  padding-bottom: 94px;
+}
+.navigation-link{
+  max-width: 370px;
+  margin-right: 15px;
+  background-color: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.navigation-link:nth-child(3n){
+  margin-right: 0;
 }
 .our-works {
 font-weight: 700;
