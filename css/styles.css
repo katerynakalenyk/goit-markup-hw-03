@@ -126,14 +126,15 @@ margin-left: auto;
 
 /*===============HERO=========*/
 .hero .conteiner{
-width: 1600px;
+min-width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
-padding-left: 452px;
 padding-bottom: 280px;
 padding-top: 200px;
 background: var(--bg-color);
+justify-content: center;
+display: grid;
 }
 
 .hero-text{
@@ -164,6 +165,7 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 padding: 8px 30px;
+
 }
 
   .button:hover {
@@ -174,6 +176,7 @@ padding: 8px 30px;
    /*==========section-title===========*/
   .post-list,.conteiner {
     display: flex;
+    justify-content: center;
     align-items: center;
   }
   .section-title{
@@ -332,6 +335,12 @@ margin-right: 30px;
 
 /*===========PORTFOLIO============*/
 /*---buttons такаие же как и встудии--*/
+.navigation-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
 .our-works {
 font-weight: 700;
 font-size: 18px;
@@ -345,4 +354,13 @@ font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
 color: var(--p-color)
+}
+.navigation-link{
+  min-width: 370px;
+  margin: 15px;
+}
+.navigation-lisnt-title{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
