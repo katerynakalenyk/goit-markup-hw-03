@@ -33,11 +33,9 @@ img{
   list-style-type: none;
 }
 .conteiner{
-  width: 1600px;
-
+  width: 1200px;
   margin: 0 auto;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding: 15px;
   background: #FFFFFF;
   }
 
@@ -126,7 +124,7 @@ margin-left: auto;
 
 /*===============HERO=========*/
 .hero .conteiner{
-min-width: 1600px;
+min-width: 1200px;
 height: 600px;
 left: 0px;
 top: 80px;
@@ -135,7 +133,7 @@ padding-top: 200px;
 background: var(--bg-color);
 justify-content: center;
 display: flex;
-flex-direction: column;
+margin: 0 auto;
 }
 
 .hero-text{
@@ -166,6 +164,7 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 padding: 8px 30px;
+margin-top: 30px;
 
 }
 
@@ -180,7 +179,7 @@ padding: 8px 30px;
     justify-content: center;
     align-items: center;
   }
-  .section-title{
+  .features{
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -210,17 +209,32 @@ padding: 8px 30px;
   line-height: 1.667;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-left: ;
   color: var(--text-color);
 }
 
 
 /*=======GALERY=========*/
+.works.conteiner{
+  display: flex;
+  align-items: center;
+}
+.our-products{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.166;
+text-align: center;
+letter-spacing: 0.03em;
+text-align: center;
+color:var(--text-color);
+}
 .our-products-list{
   display: flex;
   align-items: center;
-  margin-left: 215px;
   margin-top: 50px;
   margin-bottom: 94px;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 .our-products-item:not(:last-child) {
 margin-right: 30px;
