@@ -134,7 +134,8 @@ padding-bottom: 280px;
 padding-top: 200px;
 background: var(--bg-color);
 justify-content: center;
-display: grid;
+display: flex;
+flex-direction: column;
 }
 
 .hero-text{
@@ -286,13 +287,14 @@ margin-right: 30px;
 }
 
 /*=======footer=========*/
-.footer{
+.footer {
     height: 252px;
     width: 100%;
     padding-left: 215px;
     padding-right: 215px;
     background: var(--bg-color);
   }
+
   .logo-2 {
     font-family: "Raleway",sans-serif;
     font-style: normal;
@@ -335,10 +337,13 @@ margin-right: 30px;
 
 /*===========PORTFOLIO============*/
 /*---buttons такаие же как и встудии--*/
-.navigation-btn{
+.main-title . .conteiner{
+
+}
+.navigation-btn {
   display: flex;
   align-items: center;
-  justify-content: center;
+
 
 }
 .our-works {
@@ -355,12 +360,4 @@ line-height: 1.875;
 letter-spacing: 0.03em;
 color: var(--p-color)
 }
-.navigation-link{
-  min-width: 370px;
-  margin: 15px;
-}
-.navigation-lisnt-title{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
+
