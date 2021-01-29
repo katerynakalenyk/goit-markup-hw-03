@@ -348,11 +348,13 @@ margin-right: 30px;
 
 /*===========PORTFOLIO============*/
 /*---buttons такаие же как и встудии--*/
-
+.main-title{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .navigation-portfolio-btn{
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 .portfolio-button{
@@ -399,7 +401,6 @@ margin-right: 30px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-bottom: 94px;
 }
 .navigation-link{
   max-width: 370px;
@@ -428,6 +429,6 @@ letter-spacing: 0.03em;
 color: var(--p-color)
 }
 .project-description{
-  padding: 20px 15px;
+  padding: 20px 24px;
 }
 
